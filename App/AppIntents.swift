@@ -46,7 +46,7 @@ struct HealthShortcuts: AppShortcutsProvider {
             phrases: [
                 "Calculate my BMI with \(.applicationName)",
                 "What's my BMI in \(.applicationName)",
-                "Check my body mass index"
+                "Check my body mass index with \(.applicationName)"
             ],
             shortTitle: "Calculate BMI",
             systemImageName: "heart.text.square.fill"
