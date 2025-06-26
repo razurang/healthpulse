@@ -34,7 +34,7 @@ struct HealthPulseApp: App {
     }
 }
 
-enum MeasurementSystem: String, CaseIterable {
+enum MeasurementSystem: String, Codable, CaseIterable {
     case metric = "metric"
     case imperial = "imperial"
     
