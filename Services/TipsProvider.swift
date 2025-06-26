@@ -111,12 +111,12 @@ struct CalculatorTip: Tip {
 class TipsManager {
     static let shared = TipsManager()
     
-    let inputTip = InputTip()
-    let resultsTip = ResultsTip()
-    let historyTip = HistoryTip()
-    let shareTip = ShareTip()
-    let bmiRangeTip = BMIRangeTip()
-    let calculatorTip = CalculatorTip()
+    var inputTip = InputTip()
+    var resultsTip = ResultsTip()
+    var historyTip = HistoryTip()
+    var shareTip = ShareTip()
+    var bmiRangeTip = BMIRangeTip()
+    var calculatorTip = CalculatorTip()
     
     private init() {}
     
