@@ -15,7 +15,6 @@
 		A1000011294F2B8C00C29F6F /* BMICategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012294F2B8C00C29F6F /* BMICategory.swift */; };
 		A1000013294F2B8C00C29F6F /* HealthCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014294F2B8C00C29F6F /* HealthCalculator.swift */; };
 		A1000015294F2B8C00C29F6F /* TipsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000016294F2B8C00C29F6F /* TipsProvider.swift */; };
-		A1000017294F2B8C00C29F6F /* TipsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000018294F2B8C00C29F6F /* TipsManager.swift */; };
 		A1000019294F2B8C00C29F6F /* HealthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001A294F2B8C00C29F6F /* HealthViewModel.swift */; };
 		A100001B294F2B8C00C29F6F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001C294F2B8C00C29F6F /* InputView.swift */; };
 		A100001D294F2B8C00C29F6F /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001E294F2B8C00C29F6F /* ResultsView.swift */; };
@@ -36,7 +35,6 @@
 		A1000012294F2B8C00C29F6F /* BMICategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICategory.swift; sourceTree = "<group>"; };
 		A1000014294F2B8C00C29F6F /* HealthCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCalculator.swift; sourceTree = "<group>"; };
 		A1000016294F2B8C00C29F6F /* TipsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsProvider.swift; sourceTree = "<group>"; };
-		A1000018294F2B8C00C29F6F /* TipsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsManager.swift; sourceTree = "<group>"; };
 		A100001A294F2B8C00C29F6F /* HealthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewModel.swift; sourceTree = "<group>"; };
 		A100001C294F2B8C00C29F6F /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		A100001E294F2B8C00C29F6F /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 			children = (
 				A1000014294F2B8C00C29F6F /* HealthCalculator.swift */,
 				A1000016294F2B8C00C29F6F /* TipsProvider.swift */,
-				A1000018294F2B8C00C29F6F /* TipsManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -238,7 +235,6 @@
 				A1000011294F2B8C00C29F6F /* BMICategory.swift in Sources */,
 				A1000013294F2B8C00C29F6F /* HealthCalculator.swift in Sources */,
 				A1000015294F2B8C00C29F6F /* TipsProvider.swift in Sources */,
-				A1000017294F2B8C00C29F6F /* TipsManager.swift in Sources */,
 				A1000019294F2B8C00C29F6F /* HealthViewModel.swift in Sources */,
 				A100001B294F2B8C00C29F6F /* InputView.swift in Sources */,
 				A100001D294F2B8C00C29F6F /* ResultsView.swift in Sources */,
