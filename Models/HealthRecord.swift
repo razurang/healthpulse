@@ -27,11 +27,12 @@ final class HealthRecord {
         self.measurementSystem = measurementSystem
         
         let calculator = HealthCalculator()
-        self.bmi = calculator.calculateBMI(weight: weight, height: height, isMetric: measurementSystem == .metric)
-        self.bmiCategory = calculator.getBMICategory(bmi: self.bmi)
+        let calculatedBMI = calculator.calculateBMI(weight: weight, height: height, isMetric: measurementSystem == .metric)
+        self.bmi = calculatedBMI
+        self.bmiCategory = calculator.getBMICategory(bmi: calculatedBMI)
         self.bmr = calculator.calculateBMR(weight: weight, height: height, age: age, gender: gender, isMetric: measurementSystem == .metric)
         self.idealWeight = calculator.calculateIdealWeight(height: height, gender: gender, isMetric: measurementSystem == .metric)
-        self.bodyFatPercentage = calculator.calculateBodyFat(bmi: self.bmi, age: age, gender: gender)
+        self.bodyFatPercentage = calculator.calculateBodyFat(bmi: calculatedBMI, age: age, gender: gender)
     }
 }
 
