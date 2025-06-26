@@ -91,7 +91,6 @@
 				A1000029294F2B8C00C29F6F /* Info.plist */,
 				A1000006294F2B8C00C29F6F /* Preview Content */,
 			);
-			path = HealthPulse;
 			sourceTree = "<group>";
 		};
 		A1000006294F2B8C00C29F6F /* Preview Content */ = {
