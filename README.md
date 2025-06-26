@@ -107,7 +107,7 @@ HealthPulse/
 #### 1. Project Setup
 ```bash
 # Clone or download the project
-git clone https://github.com/yourusername/healthpulse.git
+git clone https://github.com/razurang/healthpulse.git
 cd HealthPulse
 ```
 

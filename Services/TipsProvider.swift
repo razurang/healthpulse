@@ -1,5 +1,6 @@
 import Foundation
 import TipKit
+import Observation
 
 struct InputTip: Tip {
     var title: Text {
@@ -106,7 +107,8 @@ struct CalculatorTip: Tip {
     }
 }
 
-class TipsManager: ObservableObject {
+@Observable
+class TipsManager {
     static let shared = TipsManager()
     
     let inputTip = InputTip()
