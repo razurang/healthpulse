@@ -116,7 +116,7 @@ struct ResultsView: View {
             
             MetricCard(
                 title: "Ideal Weight",
-                value: viewModel.calculator.formatWeight(viewModel.currentIdealWeight, isMetric: viewModel.measurementSystem == .metric),
+                value: viewModel.formatWeight(viewModel.currentIdealWeight, isMetric: viewModel.measurementSystem == .metric),
                 unit: "",
                 icon: "target",
                 color: .blue,
@@ -210,7 +210,7 @@ struct ResultsView: View {
         BMI: \(String(format: "%.1f", viewModel.currentBMI)) - \(viewModel.currentCategory.name)
         BMR: \(String(format: "%.0f", viewModel.currentBMR)) cal/day
         TDEE: \(String(format: "%.0f", viewModel.currentTDEE)) cal/day
-        Ideal Weight: \(viewModel.calculator.formatWeight(viewModel.currentIdealWeight, isMetric: viewModel.measurementSystem == .metric))
+        Ideal Weight: \(viewModel.formatWeight(viewModel.currentIdealWeight, isMetric: viewModel.measurementSystem == .metric))
         Body Fat: \(String(format: "%.1f", viewModel.currentBodyFat))%
         
         Calculated with HealthPulse

@@ -55,9 +55,9 @@ struct HealthShortcuts: AppShortcutsProvider {
         AppShortcut(
             intent: GetLastBMIIntent(),
             phrases: [
-                "What was my last BMI",
-                "Show my recent health data",
-                "Get my last health check"
+                "What was my last BMI in \(.applicationName)",
+                "Show my recent health data in \(.applicationName)",
+                "Get my last health check from \(.applicationName)"
             ],
             shortTitle: "Last BMI",
             systemImageName: "clock.fill"

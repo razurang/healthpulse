@@ -122,4 +122,8 @@ final class HealthViewModel {
         showResults = false
         showValidationError = false
     }
+    
+    func formatWeight(_ weight: Double, isMetric: Bool) -> String {
+        return calculator.formatWeight(weight, isMetric: isMetric)
+    }
 }
